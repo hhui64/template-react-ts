@@ -11,11 +11,11 @@ module.exports = {
   parser: '@typescript-eslint/parser',
   ignorePatterns: ['dist', '.eslintrc.cjs'],
   rules: {
-    'no-unused-vars': 'off',
-    '@typescript-eslint/no-unused-vars': 'off',
     'react-refresh/only-export-components': [
       'warn',
       { allowConstantExport: true }
-    ]
+    ],
+    'no-unused-vars': 'off',
+    '@typescript-eslint/no-unused-vars': 'off'
   }
 }
